@@ -7,6 +7,7 @@ class Rubber{
 			restitution:0.3,
 			friction:0.5,
 			density:1.2,
+			this.image = loadImage("paper.png");
 	
 			
 		}
@@ -15,7 +16,7 @@ class Rubber{
 		this.r=r;
         
 		this.body=Bodies.circle(this.x, this.y, (this.r-20)/2, options)
-		this.image = loadImage("paper.png");
+		
 		World.add(world, this.body);
 		
 
