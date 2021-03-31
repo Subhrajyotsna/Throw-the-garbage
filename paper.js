@@ -33,7 +33,7 @@ class Rubber{
 			rectMode(CENTER)
 			strokeWeight(2);
 			stroke("black");
-			fill("#FA86C4");
+			fill("white");
 			image(this.image,0,0,this.r, this.r);
 			pop()
 	}
