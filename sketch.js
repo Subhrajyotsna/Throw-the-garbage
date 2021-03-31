@@ -30,9 +30,9 @@ trash = loadImage("paper.png");
 function draw() {
   rectMode(CENTER);
   background(230);
- 
+ groundObject.display();
   paperObj.display();
-  groundObject.display();
+  
   dustbinObj.display();
   
   
