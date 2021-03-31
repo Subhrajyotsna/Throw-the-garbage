@@ -16,6 +16,7 @@ function setup() {
 	world = engine.world;
 	
 trash = loadImage("paper.png");
+	
 	groundObject=new ground(width/2,670,width,20);
 	dustbinObj=new dustbin(1200,650);
 	paperObj=new Rubber(350,600,50);
@@ -30,8 +31,9 @@ function draw() {
   rectMode(CENTER);
   background(230);
  
-  paperObj.display();
+  
   groundObject.display();
+  paperObj.display();
   dustbinObj.display();
   
   
