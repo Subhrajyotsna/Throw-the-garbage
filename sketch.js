@@ -30,11 +30,11 @@ function draw() {
   rectMode(CENTER);
   background(230);
  
-
+paperObj.display();
   groundObject.display();
   dustbinObj.display();
   
-  paperObj.display();
+  
   
 
   
